@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SGIMA</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="./img/SGIMA-favicon.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Logo Header Start -->
+
+    <div class="container">
+      <div style="display: flex; justify-content: center">
+        <div class=" ">
+          <a href="./index.html"
+            ><img class="img-fluid" src="./img/SGIMA baner.jpg" alt="logo"
+          /></a>
+        </div>
+        <!-- <div class="img-fluid" style="width: 20%; border: 2px solid red">
+          <img
+            class="blink_img"
+            src="./img/newbranch.jpg"
+            alt="img"
+            style="width: 40%"
+            ;
+            height="auto"
+          />
+        </div> -->
+        <!-- <a href="#" class="m-5"><i class="fa fa-user" style="font-size:20px;color:orangered; border: 2px solid red;"> Login </i></a> -->
+      </div>
+    </div>
+    <!-- Logo Header End -->
+
+    <!-- Navbar Start -->
+    <nav
+    class="navbar navbar-expand-lg bg-light navbar-light shadow p-0 sticky-top"
+  >
+    <button
+      type="button"
+      class="navbar-toggler me-4"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto p-4 p-lg-0">
+        <a href="index.html" class="nav-item nav-link">Home</a>
+        <a href="about.html" class="nav-item nav-link">About</a>
+        <a href="management.html" class="nav-item nav-link">Management</a>
+        <div class="nav-item dropdown">
+          <a
+            href="#"
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Courses</a
+          >
+          <div class="dropdown-menu fade-down m-0">
+            <a href="course_IIT.html" class="dropdown-item">IIT JEE</a>
+            <a href="course_NEET.html" class="dropdown-item">NEET</a>
+          </div>
+        </div>
+        <a href="results.html" class="nav-item nav-link">Results</a>
+        <a href="olympiad.html" class="nav-item nav-link">Olympiad</a>
+        <a href="facilities.html" class="nav-item nav-link">Facilities</a>
+        <a href="branches.html" class="nav-item nav-link">Our Branches</a>
+        <!-- <a href="Placement.html" class="nav-item nav-link">Placement Faculty</a> -->
+        <a href="contact.html" class="nav-item nav-link">Contact</a>
+      </div>
+      <a
+        href="Admission_procedure.html"
+        class="btn btn-warning py-4 px-lg-5 d-lg-block"
+        style="text-transform: uppercase"
+        >Admission Form<i class="fa fa-arrow-right ms-3"></i
+      ></a>
+    </div>
+  </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark py-5 mb-3 page-header">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h1
+              class="display-3 text-white animated slideInDown"
+              style="text-transform: uppercase"
+            >
+              Olympiad school
+            </h1>
+            <!-- <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item">
+                  <a class="text-white" href="#">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a class="text-white" href="#">Pages</a>
+                </li>
+                <li
+                  class="breadcrumb-item text-white active"
+                  aria-current="page"
+                >
+                  About
+                </li>
+              </ol>
+            </nav> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- school banner -->
+    <div class="container-fluid img-fluid wow fadeInUp">
+      <img
+        src="./img/olysch_logo.jpg"
+        alt="school baner"
+        width="100%"
+        height="auto"
+      />
+    </div>
+    <!-- school banner end -->
+
+    <!-- description -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 py-4 wow fadeInLeft">
+            <img
+              src="./img/olysch_Branch_sangli.jpg"
+              alt="school buliding"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="col-lg-6 py-4 wow fadeInRight">
+            <div>
+              <h3 style="text-transform: uppercase; font-weight: bolder">
+                The Brain Child Of The &nbsp;SG-IIT &amp; Medical Academy
+              </h3>
+              <p
+                class="px-2"
+                style="
+                  text-transform: uppercase;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  line-height: 30px;
+                  color: grey;
+                "
+              >
+                Programme that includes Maharashtra State Board Teaching &amp;
+                coaching for Competitive Exams like Pre-Secondary, Scholarship,
+                Homibhabha, M.T.S.E, N.T.S.E, SIMO, SIPO, SICO, SIBO etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- description end -->
+
+    <!-- features and objectives -->
+    <div class="container-fluid p-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 wow fadeInLeft">
+            <h4
+              class="p-4 text-white"
+              style="
+                text-transform: uppercase;
+                text-align: center;
+                background-color: rgb(255, 125, 125);
+              "
+            >
+              Mission
+            </h4>
+            <ul class="px-2" style="list-style-type: none; color: grey">
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Good
+                Command Over the Fundamentals in the Subjects
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                Inculcate Good Communication Skills by using Scientific methods
+                Like Audio Visual aids,Language workshop &amp; Modern Teaching
+                Methods
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                Inculcate Social &amp; Ethical Values as "Today's Kid is
+                Tomorrow's Citizen"
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Good
+                Nutritious Food , Games &amp; Meditation
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 wow fadeInUp">
+            <h4
+              class="p-4 text-white"
+              style="
+                text-transform: uppercase;
+                text-align: center;
+                background-color: rgb(255, 125, 125);
+              "
+            >
+              Aims & Objectives
+            </h4>
+            <ul class="px-2" style="list-style-type: none; color: grey">
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                Mould the Thinking of the School Children in the Right Direction
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                Decrease the Stress and Strain Of The Students in Std.XI &amp;
+                XII
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                Help Your child to Have a Competitive Spirit
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                Have Good Command Over The Fundamental In the Subjects
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                Improve Logical Thinking &amp; Application Skills
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                gets Trained in Analytical thinking &amp; Quick Grasping
+              </li>
+
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                Have Help Him/Her to Be Better Prepared , Be Mentally Fit
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;To
+                Help Your Child Manage Stress And Cultivate Problem Solving
+                Skills
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 wow fadeInRight">
+            <h4
+              class="p-4 text-white"
+              style="
+                text-transform: uppercase;
+                text-align: center;
+                background-color: rgb(255, 125, 125);
+              "
+            >
+              Silent Features
+            </h4>
+            <ul class="px-2" style="list-style-type: none; color: grey">
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;
+                Programme that includes Maharashtra State Board Teaching &amp;
+                coaching for Competitive Exams like - Pre-Secondary Scholarship,
+                Homibhabha, M.T.S.E, N.T.S.E, SIMO, SIPO, SICO, SIBO etc.
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i
+                >&nbsp;&nbsp;Students' Performance Feedback Communicated
+                Regularly To Parents Through SMS
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i
+                >&nbsp;&nbsp;Special In House Personality Grooming Session
+                Conducted By Experts
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i
+                >&nbsp;&nbsp;Analysis Of Results OF Weekly Tests &amp; Personal
+                Student Counselling
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;Micro
+                Schedules to Suit Various Learning Levels
+              </li>
+              <li style="line-height: 30px">
+                <i class="fa fa-pencil" aria-hidden="true"></i
+                >&nbsp;&nbsp;Personalised Attention
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- features and objectives end -->
+
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 wow fadeInUpBig">
+            <div class="">
+              <h4
+                class="p-4 text-white"
+                style="
+                  text-transform: uppercase;
+                  text-align: center;
+                  background-color: rgb(255, 125, 125);
+                "
+              >
+                Extra - Curricular Activities
+              </h4>
+              <p
+                class="p-2"
+                style="
+                  color: grey;
+                  display: inline;
+                  font-weight: 400;
+                  line-height: 30px;
+                "
+              >
+                <i class="fa-solid fa-star"></i>&nbsp;&nbsp;Quiz Competitions
+              </p>
+              <p
+                class="p-2"
+                style="
+                  color: grey;
+                  display: inline;
+                  font-weight: 400;
+                  line-height: 30px;
+                "
+              >
+                <i class="fa-solid fa-star"></i>&nbsp;&nbsp;Debates
+              </p>
+              <p
+                class="p-2"
+                style="
+                  color: grey;
+                  display: inline;
+                  font-weight: 400;
+                  line-height: 30px;
+                "
+              >
+                <i class="fa-solid fa-star"></i>&nbsp;&nbsp;Brain Storming
+                Sessions
+              </p>
+              <p
+                class="p-2"
+                style="
+                  color: grey;
+                  display: inline;
+                  font-weight: 400;
+                  line-height: 30px;
+                "
+              >
+                <i class="fa-solid fa-star"></i>&nbsp;&nbsp;Discussion Science
+                Explorations
+              </p>
+              <p
+                class="p-2"
+                style="
+                  color: grey;
+                  display: inline;
+                  font-weight: 400;
+                  line-height: 30px;
+                "
+              >
+                <i class="fa-solid fa-star"></i>&nbsp;&nbsp;Meditation
+              </p>
+              <p
+                class="p-2"
+                style="
+                  color: grey;
+                  display: inline;
+                  font-weight: 400;
+                  line-height: 30px;
+                "
+              >
+                <i class="fa-solid fa-star"></i>&nbsp;&nbsp;Music Classes
+              </p>
+              <p
+                class="p-2"
+                style="
+                  color: grey;
+                  display: inline;
+                  font-weight: 400;
+                  line-height: 30px;
+                "
+              >
+                <i class="fa-solid fa-star"></i>&nbsp;&nbsp;Field Trip (Eduction
+                Field Visit
+              </p>
+              <p
+                class="p-2"
+                style="
+                  color: grey;
+                  display: inline;
+                  font-weight: 400;
+                  line-height: 30px;
+                "
+              >
+                <i class="fa-solid fa-star"></i>&nbsp;&nbsp;Sports Meet
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <h4 class="text-white mb-3 mt-3">Quick Link</h4>
+            <a class="btn btn-link" href="#">About Us</a>
+            <a class="btn btn-link" href="#">Contact Us</a>
+            <a class="btn btn-link" href="#">Privacy Policy</a>
+            <a class="btn btn-link" href="#">Terms & Condition</a>
+            <a class="btn btn-link" href="#">FAQs & Help</a>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <h4 class="text-white mb-3 mt-3">Contact</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Section No.288, Opp to
+              Varad Magal Karyalay, Sangli-Kolhapur Road, Ankali - 416
+              416
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+91 8208315138
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+91 9623235919
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+91 9284262122
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>sgolympiad@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <h4 class="text-white mb-3 mt-3">Location Map</h4>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.102420977032!2d74.56460501476964!3d16.821274323312412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc11814214aa45b%3A0x5d34916c980dbf88!2sSANJAY%20GHODAWAT%20OLYMPIAD%20SCHOOL!5e0!3m2!1sen!2sin!4v1668748187994!5m2!1sen!2sin"
+              width="320"
+              height="220"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">SGIMA</a>, All Right
+              Reserved. Designed By
+              <a class="border-bottom" href="https://htmlcodex.com"> </a
+              ><br /><br />
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="">Home</a>
+                <a href="">Help</a>
+                <a href="">FQAs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
